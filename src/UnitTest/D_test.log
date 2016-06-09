@@ -1,0 +1,115 @@
+4
+put data: 100
+databit : 9
+current_position_: 1  current_bit_1
+=====
+block data 0 : 0
+block data 1 : 1
+=====
+put data: 52
+databit : 9
+current_position_: 2  current_bit_2
+=====
+block data 0 : 0
+block data 1 : a5
+block data 2 : 0
+=====
+put data: 92
+databit : 9
+current_position_: 3  current_bit_3
+=====
+block data 0 : 0
+block data 1 : a5
+block data 2 : 48
+block data 3 : 2
+=====
+put data: 5a
+databit : 9
+current_position_: 4  current_bit_4
+=====
+block data 0 : 0
+block data 1 : a5
+block data 2 : 48
+block data 3 : d2
+block data 4 : 2
+=====
+put data: 92
+databit : 9
+current_position_: 5  current_bit_5
+=====
+block data 0 : 0
+block data 1 : a5
+block data 2 : 48
+block data 3 : d2
+block data 4 : 22
+block data 5 : 9
+=====
+put data: 102
+databit : 9
+current_position_: 6  current_bit_6
+=====
+block data 0 : 0
+block data 1 : a5
+block data 2 : 48
+block data 3 : d2
+block data 4 : 22
+block data 5 : 49
+block data 6 : 20
+=====
+put data: 104
+databit : 9
+current_position_: 7  current_bit_7
+=====
+block data 0 : 0
+block data 1 : a5
+block data 2 : 48
+block data 3 : d2
+block data 4 : 22
+block data 5 : 49
+block data 6 : 20
+block data 7 : 41
+=====
+put data: 106
+databit : 9
+current_position_: 9  current_bit_0
+=====
+block data 0 : 0
+block data 1 : a5
+block data 2 : 48
+block data 3 : d2
+block data 4 : 22
+block data 5 : 49
+block data 6 : 20
+block data 7 : 41
+block data 8 : 83
+block data 9 : 0
+=====
+put data: 101
+databit : 9
+current_position_: a  current_bit_1
+=====
+block data 0 : 0
+block data 1 : a5
+block data 2 : 48
+block data 3 : d2
+block data 4 : 22
+block data 5 : 49
+block data 6 : 20
+block data 7 : 41
+block data 8 : 83
+block data 9 : 1
+block data a : 1
+=====
+output block 0
+data: 0 : 0
+data: 1 : a5
+data: 2 : 48
+data: 3 : d2
+data: 4 : 22
+data: 5 : 49
+data: 6 : 20
+data: 7 : 41
+data: 8 : 83
+data: 9 : 1
+data: 10 : 1
+
