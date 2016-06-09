@@ -38,7 +38,7 @@ bool BMPReader::getNextPixel(unsigned char* pixel){
 			current_width_=0;
 			current_height_--;
 		}
-		std::cout<<current_width_<<", "<<current_height_<<std::endl;
+		//std::cout<<current_width_<<", "<<current_height_<<std::endl;
 		return TRUE;
 	}
 	else{
