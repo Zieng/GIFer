@@ -10,6 +10,7 @@ public:
 	unsigned int getHeader();
 	unsigned int getTailer();
 	unsigned int getCode(std::string str);
+	unsigned int getBits();
 private:
 	std::map<std::string,unsigned int> dictionary_;
 	unsigned int current_size_;

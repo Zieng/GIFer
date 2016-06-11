@@ -25,6 +25,7 @@ private:
 	unsigned int current_position_;
 	unsigned int current_bit_;
 	LZWCoder lzw_coder_;
+	int least_code_size_;
 	std::stringstream strparser_;
 };
 

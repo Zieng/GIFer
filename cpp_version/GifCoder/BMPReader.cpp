@@ -45,3 +45,11 @@ bool BMPReader::getNextPixel(unsigned char* pixel){
 		return FALSE;
 	}
 }
+
+int BMPReader::getHeight(){
+	return height_;
+}
+
+int BMPReader::getWidth(){
+	return width_;
+}

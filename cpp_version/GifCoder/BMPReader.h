@@ -9,6 +9,8 @@ public:
 	unsigned char* getPalette();
 	bool hasPixelLeft();
 	bool getNextPixel(unsigned char* pixel);
+	int getWidth();
+	int getHeight();
 private:
 	FIBITMAP* bitmap_;
 	unsigned char* palette_;
